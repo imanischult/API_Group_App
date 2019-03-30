@@ -1,19 +1,63 @@
+<!-- Bootstrap Jumbotron Demo -->
 <!DOCTYPE html>
-<html lang="eng-us">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="app.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Poiret+One" rel="stylesheet">
-    </head>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Example</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+  <!-- We create a jumbotron div. Everything placed in here gets styled by the CSS rules of the element's class. -->
+  <div class="jumbotron">
+
+    <h1>NEWS FEED</h1>
+    <p>Find what you're looking for</p>
+
+  </div>
+  <h1>What are you looking for?</h1>
+
+  <!-- Take note of the button styling -->
+
+  <!-- In the buff. Eesh... -->
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Search Term</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+    </div>
+  </form>
+  
+  <select class="custom-select" size="3"> 
+    <div class="form-group"></div>
+    <label for="formGroupExampleInput">Number of articles</label>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">+5</option>
+  </select>
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Start Year(optional)</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+    </div>
+  </form>
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">End Year(optional)</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+    </div>
+  </form>
+
+  <!-- Much more elegance. -->
+  <button class="btn btn-success"><span class="fa fa-search"></span>  Search Now!</button>
+
+</body>
+
 </html>
-
-<h1>Buzzfeed Search Engine</h1>
-
-<table>
-    <tr>
-        <th scope="col"></th>
-    </tr>
-</table>
